@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+
+    <script src="https://cjrtnc.leaningtech.com/5.0/loader.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #14141e;
+        }
+    </style>
+</head>
+<body>
+
+<script type="module">
+    await cheerpjInit({ version: 21 });
+
+    cheerpjCreateDisplay(1100, 850);
+
+    await cheerpjRunJar("/app/MovieTicketBooking.jar");
+</script>
+
+</body>
+</html>
